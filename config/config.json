@@ -1,0 +1,58 @@
+{
+  "intent_greeting": {
+    "utterances": [
+      "wake up jarvis",
+      "hello jarvis",
+      "hi jarvis",
+      "hey jarvis"
+    ],
+    "responses": [
+      "hello sir, how may i help you",
+      "hello sir, always at your service"
+    ]
+  },
+  "intent_applications": {
+    "utterances": ["open","run","launch"],
+    "applications": {
+      "app": "/Volumes/Omega/System/Applications/App\\ Store.app", "pycharm":"/Applications/PyCharm.app",
+      "downloads": "/Users/macedon/Downloads", "library":"/Library","current directory":".",
+      "youtube":"https://www.youtube.com","sea":"/Applications/CLion.app"
+    },
+    "responses": [
+      "ok sir",
+      "sure sir"
+    ]
+
+  },
+  "intent_music": {
+    "utterances": [
+      "play",
+      "stop",
+      "pause",
+      "next",
+      "previous"
+    ],
+    "responses": [
+      "okay sir",
+      "sure sir",
+      "done sir"
+    ]
+  },
+  "intent_volume": {
+    "utterances": ["set volume to",
+      "volume",
+      "mute",
+      "full volume"
+    ],
+    "responses": [
+      ""
+    ]
+  },
+  "intent_oops": {
+    "utterances": ["nothing"],
+    "responses": [
+      "I beg your pardon sir",
+      "I am sorry sir"
+    ]
+  }
+}
